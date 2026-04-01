@@ -1,0 +1,83 @@
+.card {
+  min-height: 420px;
+  border-radius: 20px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.card:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.6);
+  outline-offset: 3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logoWrap {
+  display: inline-flex;
+}
+
+.title {
+  color: #ffffff;
+  font-family: var(--font-lora);
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.linkLabel {
+  color: #ffffff;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.16px;
+  font-weight: 500;
+  border-bottom: 1px solid #ffffff;
+  width: fit-content;
+  padding-bottom: 4px;
+}
+
+.bottomContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imageWrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .card {
+    min-height: 360px;
+    padding: 22px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

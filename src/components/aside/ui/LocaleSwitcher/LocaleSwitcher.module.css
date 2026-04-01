@@ -1,0 +1,35 @@
+.nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-inter);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.link {
+  all: unset;
+  cursor: pointer;
+  color: rgba(23, 23, 23, 0.45);
+  padding: 4px 2px;
+  border-radius: 4px;
+  transition: color 0.15s ease;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.link:hover {
+  color: rgba(23, 23, 23, 0.75);
+}
+
+.linkActive {
+  color: #171717;
+  pointer-events: none;
+}
+
+.separator {
+  color: rgba(23, 23, 23, 0.25);
+  user-select: none;
+}

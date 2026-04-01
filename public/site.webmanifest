@@ -1,0 +1,21 @@
+{
+  "name": "Nikoloz Pairaziani — Frontend Developer",
+  "short_name": "NP Portfolio",
+  "description": "Portfolio of frontend developer Nikoloz Pairaziani",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#134941",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

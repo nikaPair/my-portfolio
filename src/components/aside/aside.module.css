@@ -1,0 +1,50 @@
+.aside {
+  max-width: 449px;
+  width: 100%;
+  background: #f4f4f4;
+  height: 100vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @media screen and (max-width: 1600px) {
+    max-width: 400px;
+  }
+}
+
+.localeRow {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.desktopNavigation {
+  display: block;
+}
+
+.bottomPanel {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  border-radius: 99px;
+  background: #e8e8e8;
+}
+
+@media (max-width: 1200px) {
+  .aside {
+    max-width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+
+  .desktopNavigation {
+    display: none;
+  }
+}

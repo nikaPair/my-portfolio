@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Nikoloz Pairaziani
 
-First, run the development server:
+### Frontend Developer · Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Production:** [nikapair.dev](https://nikapair.dev)
+
+Персональный сайт-портфолио: проекты, опыт, контакты. Собран как **production-ready** продукт, а не как учебный шаблон.
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+
+</div>
+
+---
+
+## Зачем этот репозиторий
+
+Если вы **рекрутер** или **техлид**: здесь видно не только визуал, но и то, *как* написан фронтенд — архитектура, i18n, SEO, разделение server/client, переиспользуемые абстракции.
+
+## Что внутри (инженерный уровень)
+
+| Область | Решение |
+|--------|---------|
+| **Фреймворк** | Next.js 16 (App Router), React 19 |
+| **Компилятор** | React Compiler (`babel-plugin-react-compiler`) |
+| **Локализация** | `next-intl`, локали `ru` / `en`, префикс в URL |
+| **UI / анимации** | Framer Motion, CSS Modules, дизайн-токены в `:root` |
+| **Архитектура** | Слайсы с публичным API (`index.js`), общая логика в `shared/` |
+| **SEO** | `generateMetadata`, Open Graph, Twitter cards, `robots.txt`, `sitemap.xml`, JSON-LD (`WebSite`, `ProfilePage`, `Person`) |
+| **Иконки / OG** | Динамические `icon`, `apple-icon`, `opengraph-image` |
+| **Качество кода** | Oxlint, Oxfmt |
+| **Шрифты** | Self-hosted, `font-display: swap`, WOFF2 + TTF fallback |
+
+## Структура проекта (кратко)
+
+```
+src/
+├── app/                 # маршруты App Router, layout, metadata
+├── components/          # фичи и виджеты (aside, projects, about, …)
+├── shared/              # ui-kit, хуки, утилиты
+├── i18n/                # routing, request config, locale helpers
+├── constants/           # ссылки, брендинг, SITE_URL
+messages/                # ru.json, en.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Быстрый старт
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Откройте [http://localhost:3000](http://localhost:3000) — произойдёт редирект на локаль по умолчанию (`/en` или `/ru` в зависимости от настроек).
 
-## Learn More
+### Сборка
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Переменные окружения
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Переменная | Назначение |
+|------------|------------|
+| `NEXT_PUBLIC_SITE_URL` | Канонический URL сайта (metadata, sitemap, OG). По умолчанию: `https://nikapair.dev` |
 
-## Deploy on Vercel
+## Скрипты
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Команда | Описание |
+|---------|----------|
+| `npm run dev` | Режим разработки |
+| `npm run build` | Production-сборка |
+| `npm run start` | Запуск production-сервера |
+| `npm run lint` | Oxlint |
+| `npm run format` | Oxfmt (запись) |
+| `npm run format:check` | Проверка форматирования |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Контакты
+
+- **Сайт:** [nikapair.dev](https://nikapair.dev)
+- **Telegram:** [@nikapair](https://t.me/nikapair)
+- **LinkedIn:** [linkedin.com/in/nika-pair](https://www.linkedin.com/in/nika-pair)
+
+---
+
+<div align="center">
+
+*Репозиторий отражает текущий стек и подход к разработке интерфейсов.*
+
+</div>

@@ -1,0 +1,48 @@
+.contact {
+  display: flex;
+  gap: 16px;
+}
+
+.telegramButton {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.14px;
+  padding: 12px 24px;
+  border-radius: 99px;
+  background: #212121;
+  color: #ffffff;
+}
+
+.available {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circleOuter {
+  width: 26.44px;
+  height: 26.44px;
+  border-radius: 50%;
+  background: #c4efff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circleInner {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #1c7c70;
+}
+
+.availableText {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  color: #34857b;
+}

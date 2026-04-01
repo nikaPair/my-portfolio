@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "title": "Portfolio — Nikoloz Pairaziani | Frontend Developer",
+    "description": "Portfolio of frontend developer Nikoloz Pairaziani. 5+ years building SPAs and desktop apps for fintech and EdTech.",
+    "siteName": "Nikoloz Pairaziani",
+    "keywords": "frontend developer, React, Next.js, TypeScript, Electron, portfolio, SPA, web development",
+    "ogImageAlt": "Nikoloz Pairaziani Portfolio — Frontend Developer"
+  },
+  "navigation": {
+    "projects": "Projects",
+    "about": "About",
+    "experience": "Experience"
+  },
+  "aside": {
+    "heroTitle": "Hi! I'm Nikoloz. I build web services and desktop applications.",
+    "heroDescription": "5+ years of experience. I build SPAs and desktop apps for fintech and EdTech.",
+    "openToOffers": "Open to opportunities",
+    "telegram": "Telegram",
+    "avatarAlt": "Profile photo",
+    "technologiesAria": "Technologies",
+    "localeSwitcherAria": "Language",
+    "localeRu": "RU",
+    "localeEn": "EN",
+    "localeRuTitle": "Russian",
+    "localeEnTitle": "English"
+  },
+  "home": {
+    "contactTitle": "I'm open to offers and ready to strengthen your team. Shall we talk details?"
+  },
+  "about": {
+    "title": "About",
+    "playVideo": "Play video",
+    "showSlide": "Show {name}",
+    "slides": {
+      "0": {
+        "alt": "Slide 1"
+      },
+      "1": {
+        "alt": "Slide 2"
+      },
+      "2": {
+        "alt": "Slide 3"
+      },
+      "3": {
+        "alt": "Slide 4"
+      }
+    },
+    "points": {
+      "0": {
+        "title": "I live in Moscow and I'm happily married",
+        "description": "I was born in Tbilisi, but I'm now based in Moscow. I'm married, I value a cozy home and support from loved ones. For me it's important to balance active work and personal life so I stay productive and energized."
+      },
+      "1": {
+        "title": "I play guitar and sing for myself",
+        "description": "When I'm not writing code, I pick up a guitar. I'm a musician, and it helps me switch off. Creativity in music and development is very similar — harmony, rhythm, and attention to detail matter in both."
+      },
+      "2": {
+        "title": "I've been writing code professionally for over 4 years",
+        "description": "I specialize in React and Next.js. For me, frontend isn't just visuals — it's how the user feels the product. I build fast, responsive apps where technical quality serves business goals."
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "sectionTasks": "Key tasks and achievements",
+    "sectionStack": "Stack",
+    "prospectTitle": "You?",
+    "prospectBody": "I'm currently looking for a full-time role. I'm interested in working with React, Next.js, and Electron, building fast, user-friendly interfaces that solve real business problems.",
+    "items": {
+      "distillery": {
+        "role": "React Frontend Developer | React, TypeScript",
+        "period": "February 2021 — November 2022",
+        "duration": "1 year 10 months",
+        "location": "Moscow",
+        "description": "Building interfaces for an ERP system for corporate finance management. Client — a large logistics company.",
+        "details": [
+          "Built interfaces for an ERP system for corporate finance management.",
+          "Implemented analytics dashboards with charts and diagrams for financial flows.",
+          "Built high-performance tables for large datasets: filtering, sorting, pagination.",
+          "Generated financial reports in PDF format.",
+          "Integrated REST APIs and improved performance with lazy loading and virtualization."
+        ]
+      },
+      "webvalley": {
+        "role": "React Frontend Developer | React, TypeScript",
+        "period": "November 2022 — June 2024",
+        "duration": "1 year 8 months",
+        "location": "Moscow",
+        "description": "Building a platform for an online school: student account and teacher admin panel.",
+        "details": [
+          "Built a platform for an online school: student account and teacher admin panel.",
+          "Implemented course, lesson, and homework management.",
+          "Built an admin panel with filtering, sorting, and user search.",
+          "Multilingual UI (RU / EN / ES), complex forms with validation and autosave.",
+          "Performance optimizations: lazy loading and list virtualization."
+        ]
+      },
+      "veev": {
+        "role": "React Frontend Developer | Next.js, Electron, TypeScript",
+        "period": "June 2024 — October 2025",
+        "duration": "1 year 5 months",
+        "location": "Russia",
+        "description": "Adaptive interfaces for interactive museum installations across Russia (touch kiosks and large screens), including real-time content updates and performance tuning under heavy load.",
+        "details": [
+          "Adaptive interfaces for interactive stands in 15+ Moscow museums serving 50k+ visitors per month.",
+          "Real-time content updates and integration with APIs/local services without full UI reload.",
+          "Designed a dual-window Electron architecture (Control/Display) with IPC and TCP to an external lighting controller.",
+          "Performance tuning with react-virtuoso and Framer Motion: FPS from 30 to 60 under load.",
+          "Idle detection and auto sleep mode, reducing power consumption by ~35%."
+        ]
+      },
+      "askbefore": {
+        "role": "Frontend / Fullstack Developer",
+        "period": "October 2025 — present",
+        "duration": "6 months",
+        "location": "Germany",
+        "description": "A modern confidential platform for sharing medical test results (STI) between partners. Focus on privacy, data security, and UX.",
+        "details": [
+          "Secure platform on Next.js 15 and TypeScript for 5k+ active users with 99.9% uptime.",
+          "End-to-end encryption for files and secure data exchange, GDPR compliance.",
+          "Stripe Connect for a medical services marketplace (100k+ transactions in Q1) and Mapbox for clinic geolocation.",
+          "PostgreSQL + Prisma schema design, CI/CD, i18n support, strong SSR/RSC performance.",
+          "Modular architecture with Clean Architecture and SOLID: ~40% faster feature delivery and easier onboarding."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "preview": {
+      "dialogLabel": "Preview: {label}",
+      "close": "Close",
+      "hint": "If the site doesn't load, open it in a new tab.",
+      "openInNewTab": "Open in a new tab"
+    },
+    "aria": {
+      "openProject": "Open {title}"
+    },
+    "items": {
+      "askbeforeEu": {
+        "title": "AskBefore",
+        "heading": "A modern confidential platform for sharing medical test results (STI) between partners."
+      },
+      "dessstRu": {
+        "title": "Landing page for product design courses",
+        "heading": "Landing page for product design courses"
+      },
+      "kazak": {
+        "title": "Adaptive interfaces for interactive museum installations",
+        "heading": "Adaptive interfaces for interactive museum installations",
+        "linkLabel": "Details available at interview"
+      },
+      "kenari": {
+        "title": "Premium eyewear store",
+        "description": "E-commerce focused on showcasing collections and fast checkout."
+      },
+      "mariaPortfolio": {
+        "title": "Product designer portfolio site",
+        "description": "Promo site with responsive case studies and personal brand."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "linkedinLabel": "LinkedIn profile"
+  }
+}

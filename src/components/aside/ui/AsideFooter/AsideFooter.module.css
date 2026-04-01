@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-inter);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.24px;
+  color: #808080;
+}
+
+.footerLeft {
+  justify-self: start;
+}
+
+.footerRight {
+  justify-self: end;
+  text-align: right;
+}
+
+.footerLinkedinLink {
+  width: 14px;
+  height: 13.6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  justify-self: center;
+}
+
+.footerLinkedinIcon {
+  width: 14px;
+  height: 13.6px;
+  display: block;
+}

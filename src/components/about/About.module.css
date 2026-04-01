@@ -1,0 +1,167 @@
+.aboutCard {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  border-radius: 32px;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.title {
+  font-family: var(--font-lora);
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  color: #171717;
+  margin-bottom: 28px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 48px;
+}
+
+.profileColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.photo {
+  width: 300px;
+  height: 400px;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photoImage {
+  object-fit: contain;
+}
+
+.photoVideo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoPlayButton {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 72px;
+  height: 72px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.videoPlayIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.reactions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.reactionChip {
+  min-width: 73px;
+  height: 36px;
+  border-radius: 10px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.reactionChipActive {
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(29, 31, 36, 0.08);
+  color: #161616;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  padding: 2px 0 18px;
+}
+
+.pointWithDivider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 18px;
+}
+
+.pointTitle {
+  font-family: var(--font-inter);
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.84px;
+  font-weight: 500;
+  color: #171717;
+  margin-bottom: 8px;
+}
+
+.pointDescription {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.72px;
+  font-weight: 400;
+  color: rgba(23, 23, 23, 0.65);
+}
+
+@media (max-width: 900px) {
+  .aboutCard {
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .profileColumn {
+    align-items: center;
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    margin-inline: auto;
+  }
+
+  .pointTitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .pointDescription {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
