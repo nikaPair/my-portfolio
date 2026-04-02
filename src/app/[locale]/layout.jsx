@@ -39,7 +39,7 @@ export async function generateMetadata({ params }) {
       description: t("description"),
       images: [
         {
-          url: "/-/opengraph-image.png",
+          url: "/og-image.png",
           width: 1024,
           height: 714,
           alt: t("ogImageAlt"),
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: ["/-/opengraph-image.png"],
+      images: ["/og-image.png"],
     },
     alternates: {
       canonical: canonicalUrl,
