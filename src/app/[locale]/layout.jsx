@@ -26,6 +26,10 @@ export async function generateMetadata({ params }) {
     authors: [{ name: AUTHOR_NAME }],
     creator: AUTHOR_NAME,
     manifest: "/site.webmanifest",
+    icons: {
+      icon: [{ url: "/favicon.png", type: "image/png", sizes: "32x32" }],
+      apple: [{ url: "/apple-icon", type: "image/png", sizes: "180x180" }],
+    },
     openGraph: {
       type: "website",
       locale: OG_LOCALES[locale] ?? "en_US",
@@ -35,9 +39,9 @@ export async function generateMetadata({ params }) {
       description: t("description"),
       images: [
         {
-          url: `/${locale}/opengraph-image`,
-          width: 1200,
-          height: 630,
+          url: "/-/opengraph-image.png",
+          width: 1024,
+          height: 714,
           alt: t("ogImageAlt"),
         },
       ],
@@ -46,7 +50,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: [`/${locale}/opengraph-image`],
+      images: ["/-/opengraph-image.png"],
     },
     alternates: {
       canonical: canonicalUrl,

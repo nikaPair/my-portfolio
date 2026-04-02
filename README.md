@@ -4,7 +4,7 @@
 
 ### Frontend Developer · Portfolio
 
-**Production:** [nikapair.dev](https://nikapair.dev)
+**Production:** [nick-and-dev.vercel.app](https://nick-and-dev.vercel.app)
 
 Персональный сайт-портфолио: проекты, опыт, контакты. Собран как **production-ready** продукт, а не как учебный шаблон.
 
@@ -30,7 +30,7 @@
 | **UI / анимации** | Framer Motion, CSS Modules, дизайн-токены в `:root` |
 | **Архитектура** | Слайсы с публичным API (`index.js`), общая логика в `shared/` |
 | **SEO** | `generateMetadata`, Open Graph, Twitter cards, `robots.txt`, `sitemap.xml`, JSON-LD (`WebSite`, `ProfilePage`, `Person`) |
-| **Иконки / OG** | Динамические `icon`, `apple-icon`, `opengraph-image` |
+| **Иконки / OG** | Статический `favicon.png`, динамические `apple-icon` и `opengraph-image` |
 | **Качество кода** | Oxlint, Oxfmt |
 | **Шрифты** | Self-hosted, `font-display: swap`, WOFF2 + TTF fallback |
 
@@ -66,7 +66,7 @@ npm run start
 
 | Переменная | Назначение |
 |------------|------------|
-| `NEXT_PUBLIC_SITE_URL` | Канонический URL сайта (metadata, sitemap, OG). По умолчанию: `https://nikapair.dev` |
+| `NEXT_PUBLIC_SITE_URL` | Канонический URL сайта (metadata, sitemap, OG). По умолчанию: `https://nick-and-dev.vercel.app` |
 
 ## Скрипты
 
@@ -83,7 +83,7 @@ npm run start
 
 ## Контакты
 
-- **Сайт:** [nikapair.dev](https://nikapair.dev)
+- **Сайт:** [nick-and-dev.vercel.app](https://nick-and-dev.vercel.app)
 - **Telegram:** [@nikapair](https://t.me/nikapair)
 - **LinkedIn:** [linkedin.com/in/nika-pair](https://www.linkedin.com/in/nika-pair)
 
